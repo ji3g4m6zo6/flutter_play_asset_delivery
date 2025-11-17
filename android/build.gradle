@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
+    namespace 'de.yucondigital.flutter_play_asset_delivery'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
